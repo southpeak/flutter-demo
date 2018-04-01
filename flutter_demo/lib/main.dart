@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
+import 'tutuorial.dart';
+
 void main() => runApp(new FlutterDemo());
 
 class FlutterDemo extends StatelessWidget {
@@ -12,7 +14,8 @@ class FlutterDemo extends StatelessWidget {
       theme: new ThemeData(
         primaryColor: Colors.white,
       ),
-      home: new RandomWords()
+      // home: new RandomWords()
+      home: new TutorialHome(),
     );
   }
 }
