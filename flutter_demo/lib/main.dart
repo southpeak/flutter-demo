@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import './injection/dependency_injection.dart';
+
+// Injector.configure(Flavor.PRO);
 
 void main() => runApp(MyApp());
 
